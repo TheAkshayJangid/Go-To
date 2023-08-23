@@ -1,0 +1,51 @@
+body {
+    background-image: linear-gradient(to right, rgb(253, 14, 181), blue);
+}
+
+.rounded-circle {
+    width: 100px;
+    border-radius: 50% !important;
+    height: 100px:
+}
+
+.img {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 10px;
+}
+
+.head1 {
+    color: rgb(255, 255, 255);
+    font-family: Itim, cursive;
+    font-size: medium;
+    text-align: center;
+
+}
+
+.link-content {
+    padding: 1.1rem;
+    color: aliceblue    ;
+    margin-bottom: 1rem;
+
+    
+}
+
+.links {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: Itim, cursive;
+    border-radius: 2.3rem;
+    flex: 1;
+    margin-bottom: 1rem;
+
+
+}
+
+.link {
+    style="color: rgb(255, 255, 255); 
+    background-color: rgb(0, 0, 0); 
+    font-family: Itim, cursive; b
+    border-radius: 2.3rem;"
+    margin-bottom: 1rem;
+
+}
