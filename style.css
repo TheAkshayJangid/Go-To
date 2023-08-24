@@ -2,16 +2,23 @@ body {
     background-image: linear-gradient(to right, rgb(253, 14, 181), blue);
 }
 
+header {
+    background-image: linear-gradient(to right, rgb(253, 14, 181), blue);
+
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
 .rounded-circle {
     width: 100px;
     border-radius: 50% !important;
-    height: 100px:
+    height: 100px;
 }
 
 .img {
     text-align: center;
     margin-top: 2%;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 .head1 {
@@ -19,33 +26,46 @@ body {
     font-family: Itim, cursive;
     font-size: medium;
     text-align: center;
-
 }
 
-.link-content {
-    padding: 1.1rem;
-    color: aliceblue    ;
-    margin-bottom: 1rem;
-
-    
+#link-content .links-content {
+    padding: 10%;
+    color: aliceblue;
+    margin-bottom: 3rem;
 }
 
 .links {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
     font-family: Itim, cursive;
-    border-radius: 2.3rem;
-    flex: 1;
-    margin-bottom: 1rem;
-
-
+    border-radius: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    flex: 5;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .link {
-    style="color: rgb(255, 255, 255); 
-    background-color: rgb(0, 0, 0); 
-    font-family: Itim, cursive; b
-    border-radius: 2.3rem;"
-    margin-bottom: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: Itim, cursive;
+    text-decoration: none;
+}
 
+footer {
+    background-image: linear-gradient(to right, rgb(253, 14, 181), blue);
+    padding: 10px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Itim, cursive;
+}
+
+footer h1{
+    color: rgb(251, 255, 0); 
 }
